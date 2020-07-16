@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MaryTabBar'
   s.version          = '0.1.0'
-  s.summary          = 'MaryTabBar is a light way to add customization with animation to your tab bar view'
+  s.summary          = 'MaryTabBar is a light way to add customization with animation to your tab bar view.'
   s.swift_version    = '5.0'
   
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Babich-anton/MaryTabBar'
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'antosha.1998.ru@mail.ru' => 'babich.anton.q@gmail.com' }
+  s.author           = { 'Anton Babich' => 'babich.anton.q@gmail.com' }
   s.source           = { :git => 'https://github.com/Babich-anton/MaryTabBar.git', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.3'
