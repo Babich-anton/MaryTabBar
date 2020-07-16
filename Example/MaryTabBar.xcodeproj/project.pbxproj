@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6493050E24BE1ACB006FEE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493050D24BE1ACB006FEE96 /* AppDelegate.swift */; };
+		6493051024BE1ACB006FEE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493050F24BE1ACB006FEE96 /* SceneDelegate.swift */; };
+		6493051224BE1ACB006FEE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6493051124BE1ACB006FEE96 /* ViewController.swift */; };
+		6493051524BE1ACB006FEE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6493051324BE1ACB006FEE96 /* Main.storyboard */; };
+		6493051724BE1ACF006FEE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6493051624BE1ACF006FEE96 /* Assets.xcassets */; };
+		6493051A24BE1ACF006FEE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6493051824BE1ACF006FEE96 /* LaunchScreen.storyboard */; };
+		649EF55A24BE1CBE00332995 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 649EF55924BE1CBE00332995 /* .swiftlint.yml */; };
+		649EF56824BE1F5A00332995 /* MaryTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF56424BE1F5A00332995 /* MaryTabBarController.swift */; };
+		649EF56924BE1F5A00332995 /* MaryTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF56524BE1F5A00332995 /* MaryTabBar.swift */; };
+		649EF56A24BE1F5A00332995 /* MaryTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF56624BE1F5A00332995 /* MaryTabBarItem.swift */; };
+		649EF56B24BE1F5A00332995 /* MaryTabBarSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EF56724BE1F5A00332995 /* MaryTabBarSetting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6493050A24BE1ACB006FEE96 /* MaryTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaryTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6493050D24BE1ACB006FEE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6493050F24BE1ACB006FEE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6493051124BE1ACB006FEE96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6493051424BE1ACB006FEE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6493051624BE1ACF006FEE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6493051924BE1ACF006FEE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6493051B24BE1ACF006FEE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649EF55924BE1CBE00332995 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		649EF56424BE1F5A00332995 /* MaryTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaryTabBarController.swift; sourceTree = "<group>"; };
+		649EF56524BE1F5A00332995 /* MaryTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaryTabBar.swift; sourceTree = "<group>"; };
+		649EF56624BE1F5A00332995 /* MaryTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaryTabBarItem.swift; sourceTree = "<group>"; };
+		649EF56724BE1F5A00332995 /* MaryTabBarSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaryTabBarSetting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6493050724BE1ACB006FEE96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6493050124BE1ACB006FEE96 = {
+			isa = PBXGroup;
+			children = (
+				6493050C24BE1ACB006FEE96 /* MaryTabBar */,
+				649EF55924BE1CBE00332995 /* .swiftlint.yml */,
+				6493050B24BE1ACB006FEE96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6493050B24BE1ACB006FEE96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6493050A24BE1ACB006FEE96 /* MaryTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6493050C24BE1ACB006FEE96 /* MaryTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				6493052124BE1B6C006FEE96 /* MaryTabBar */,
+				6493050D24BE1ACB006FEE96 /* AppDelegate.swift */,
+				6493050F24BE1ACB006FEE96 /* SceneDelegate.swift */,
+				6493051124BE1ACB006FEE96 /* ViewController.swift */,
+				6493051324BE1ACB006FEE96 /* Main.storyboard */,
+				6493051624BE1ACF006FEE96 /* Assets.xcassets */,
+				6493051824BE1ACF006FEE96 /* LaunchScreen.storyboard */,
+				6493051B24BE1ACF006FEE96 /* Info.plist */,
+			);
+			path = MaryTabBar;
+			sourceTree = "<group>";
+		};
+		6493052124BE1B6C006FEE96 /* MaryTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				649EF56524BE1F5A00332995 /* MaryTabBar.swift */,
+				649EF56424BE1F5A00332995 /* MaryTabBarController.swift */,
+				649EF56624BE1F5A00332995 /* MaryTabBarItem.swift */,
+				649EF56724BE1F5A00332995 /* MaryTabBarSetting.swift */,
+			);
+			path = MaryTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6493050924BE1ACB006FEE96 /* MaryTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6493051E24BE1ACF006FEE96 /* Build configuration list for PBXNativeTarget "MaryTabBar" */;
+			buildPhases = (
+				6493050624BE1ACB006FEE96 /* Sources */,
+				6493050724BE1ACB006FEE96 /* Frameworks */,
+				6493050824BE1ACB006FEE96 /* Resources */,
+				649EF55B24BE1CD600332995 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaryTabBar;
+			productName = MaryTabBar;
+			productReference = 6493050A24BE1ACB006FEE96 /* MaryTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6493050224BE1ACB006FEE96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Anton Babich";
+				TargetAttributes = {
+					6493050924BE1ACB006FEE96 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 6493050524BE1ACB006FEE96 /* Build configuration list for PBXProject "MaryTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6493050124BE1ACB006FEE96;
+			productRefGroup = 6493050B24BE1ACB006FEE96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6493050924BE1ACB006FEE96 /* MaryTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6493050824BE1ACB006FEE96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649EF55A24BE1CBE00332995 /* .swiftlint.yml in Resources */,
+				6493051A24BE1ACF006FEE96 /* LaunchScreen.storyboard in Resources */,
+				6493051724BE1ACF006FEE96 /* Assets.xcassets in Resources */,
+				6493051524BE1ACB006FEE96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		649EF55B24BE1CD600332995 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6493050624BE1ACB006FEE96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6493051224BE1ACB006FEE96 /* ViewController.swift in Sources */,
+				6493050E24BE1ACB006FEE96 /* AppDelegate.swift in Sources */,
+				649EF56B24BE1F5A00332995 /* MaryTabBarSetting.swift in Sources */,
+				6493051024BE1ACB006FEE96 /* SceneDelegate.swift in Sources */,
+				649EF56824BE1F5A00332995 /* MaryTabBarController.swift in Sources */,
+				649EF56A24BE1F5A00332995 /* MaryTabBarItem.swift in Sources */,
+				649EF56924BE1F5A00332995 /* MaryTabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6493051324BE1ACB006FEE96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6493051424BE1ACB006FEE96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6493051824BE1ACF006FEE96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6493051924BE1ACF006FEE96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6493051C24BE1ACF006FEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6493051D24BE1ACF006FEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6493051F24BE1ACF006FEE96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXRCZGZUFL;
+				INFOPLIST_FILE = MaryTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.anton.babich.MaryTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6493052024BE1ACF006FEE96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = app_icon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXRCZGZUFL;
+				INFOPLIST_FILE = MaryTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.anton.babich.MaryTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6493050524BE1ACB006FEE96 /* Build configuration list for PBXProject "MaryTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6493051C24BE1ACF006FEE96 /* Debug */,
+				6493051D24BE1ACF006FEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6493051E24BE1ACF006FEE96 /* Build configuration list for PBXNativeTarget "MaryTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6493051F24BE1ACF006FEE96 /* Debug */,
+				6493052024BE1ACF006FEE96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6493050224BE1ACB006FEE96 /* Project object */;
+}
