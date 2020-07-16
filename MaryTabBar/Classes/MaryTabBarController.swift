@@ -7,12 +7,12 @@
 //
 import UIKit
 
-@available(iOS 10.0, *)
+@available(iOS 9.3, *)
 public protocol MaryTabBarControllerDelegate: NSObjectProtocol {
     func tabBarController(_ tabBarController: MaryTabBarController, didSelect viewController: UIViewController)
 }
 
-@available(iOS 10.0, *)
+@available(iOS 9.3, *)
 open class MaryTabBarController: UIViewController, MaryTabBarDelegate {
     
     weak open var delegate: MaryTabBarControllerDelegate?

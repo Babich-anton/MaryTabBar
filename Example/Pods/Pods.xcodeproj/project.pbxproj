@@ -1,0 +1,782 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28075268BB594BE3EAB0551BB509C494 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7FEF59D16129A65593C14AB236F7743F /* MaryTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DFC3AA2F3C94CC99341A06EB6EFFEE /* MaryTabBar-dummy.m */; };
+		995233AAAA52C1503780B0BD985C9749 /* MaryTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D32809381ED4450FE04346ABD3F3239 /* MaryTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A629F21D5FB8B8387C9EBA27BD147BC9 /* MaryTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E7BA11771D9799D4BDF168CC870F1 /* MaryTabBarController.swift */; };
+		B1483B6E10C5EB87ABCE8B65EDFD3718 /* Pods-MaryTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 392929C48C520971290B0C5D9DADA108 /* Pods-MaryTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4946DCB6948D8444B1F43F8CB947B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B99F0647173DF29DF0A113B391D0104D /* MaryTabBarSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C606B66476D4F61B1F4334D8BE7BB5D7 /* MaryTabBarSetting.swift */; };
+		BBAC5827407D9FFCB024CA157E73B856 /* Pods-MaryTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E8F7D2E75CD1865406DCC376CF3112 /* Pods-MaryTabBar_Tests-dummy.m */; };
+		CED49985C7FA5F79A7511B1A3974DCD5 /* Pods-MaryTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1C7DA1C743B9DFCA333E371DA6A7B3 /* Pods-MaryTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B53453A143C84D99831313B75A165B /* MaryTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D062AC36A8688A45FBD3227E7CD3D89E /* MaryTabBar.swift */; };
+		EF9FA57E13BDC80D6FA0EBCD8344D691 /* Pods-MaryTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F88FE7CC70C015B6C3783DB5916DD82 /* Pods-MaryTabBar_Example-dummy.m */; };
+		F174A822CD0A50FD0738134DAC41CC66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FE66011B33694F03089C03276FD9AC4D /* MaryTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238842AEDE01C46B86B3BEB3F892170 /* MaryTabBarItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48965CBF51686862EC585095ED0BA07F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C247A7583266F741C6D9DDE8CB0D91D6;
+			remoteInfo = "Pods-MaryTabBar_Example";
+		};
+		E399F8923FB95A7081C8CFB1DB4F1D7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C8CE5806A81F770579E4FB3B982D6B1;
+			remoteInfo = MaryTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B98C9CFB2D9AAF28FC4CC1A932A70DB /* MaryTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaryTabBar-Info.plist"; sourceTree = "<group>"; };
+		141327A6C3CC7047C2CCF73510E29CFA /* Pods_MaryTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaryTabBar_Example.framework; path = "Pods-MaryTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18731D5BAAEDD4EC1BB4383514452C32 /* Pods-MaryTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4C1899F9661EBADA902BFFBB7AFE80 /* MaryTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaryTabBar.modulemap; sourceTree = "<group>"; };
+		1BC953DC8B8D5071FE4D180511FC5579 /* Pods-MaryTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaryTabBar_Example-Info.plist"; sourceTree = "<group>"; };
+		1E5A676F4E67194D684D12D3A973F585 /* MaryTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaryTabBar-prefix.pch"; sourceTree = "<group>"; };
+		212CD3E95D243353DD6CE9EC461E8A64 /* Pods-MaryTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3238842AEDE01C46B86B3BEB3F892170 /* MaryTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaryTabBarItem.swift; path = MaryTabBar/Classes/MaryTabBarItem.swift; sourceTree = "<group>"; };
+		37E611E295DDE68A250DC763B616CDFC /* MaryTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaryTabBar.framework; path = MaryTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B8DDDDF74D061C781BF5D692DDD861 /* Pods-MaryTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		392929C48C520971290B0C5D9DADA108 /* Pods-MaryTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaryTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		46FDD46EB61A04FE88DB09BFC6D4A614 /* Pods-MaryTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaryTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		643FDDC3B4AC3FD36A05B9C760FD6770 /* Pods-MaryTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaryTabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		6441D228B1819FF7FAD82ACB85CE70C0 /* Pods-MaryTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaryTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		6D32809381ED4450FE04346ABD3F3239 /* MaryTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaryTabBar-umbrella.h"; sourceTree = "<group>"; };
+		7F88FE7CC70C015B6C3783DB5916DD82 /* Pods-MaryTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaryTabBar_Example-dummy.m"; sourceTree = "<group>"; };
+		816904F6C20D2193015DC2ACF2EFECDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8C500C4A650EA2EAABC420C1BB06D051 /* Pods-MaryTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaryTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		954E7BA11771D9799D4BDF168CC870F1 /* MaryTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaryTabBarController.swift; path = MaryTabBar/Classes/MaryTabBarController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6AEC11E1F198C61166857F58ABDD21F /* Pods-MaryTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaryTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B13519C0211E0A5CF63AA8D77EB3FEF1 /* Pods_MaryTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaryTabBar_Tests.framework; path = "Pods-MaryTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DFC3AA2F3C94CC99341A06EB6EFFEE /* MaryTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaryTabBar-dummy.m"; sourceTree = "<group>"; };
+		BB817916479F84B1B98F235D37FF9D75 /* Pods-MaryTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MaryTabBar_Example.modulemap"; sourceTree = "<group>"; };
+		BCE48F5195058BF4F036D6B989C34D3C /* MaryTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MaryTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C22C95EBF50E28854B904DE2C66A09FC /* MaryTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaryTabBar.xcconfig; sourceTree = "<group>"; };
+		C258A135997D2E9488D87D27F6D71CF1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C3E8F7D2E75CD1865406DCC376CF3112 /* Pods-MaryTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MaryTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		C606B66476D4F61B1F4334D8BE7BB5D7 /* MaryTabBarSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaryTabBarSetting.swift; path = MaryTabBar/Classes/MaryTabBarSetting.swift; sourceTree = "<group>"; };
+		CE9DD30BC159B5427B7F4EC2AF4536AE /* Pods-MaryTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MaryTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D062AC36A8688A45FBD3227E7CD3D89E /* MaryTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaryTabBar.swift; path = MaryTabBar/Classes/MaryTabBar.swift; sourceTree = "<group>"; };
+		EE1C7DA1C743B9DFCA333E371DA6A7B3 /* Pods-MaryTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MaryTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F8C8BCCA1455EB1CB255C8DABDB1A879 /* Pods-MaryTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MaryTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF701F29783BE624D14ADDAEC935C61C /* Pods-MaryTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MaryTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79F79CE52A1F6DDE0DA6F87DF81D6337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28075268BB594BE3EAB0551BB509C494 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8189C8E7C93522EF5EDF42DFB33E7282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F174A822CD0A50FD0738134DAC41CC66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A417B85F09F6147B3A1FE3DC46C4BBFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4946DCB6948D8444B1F43F8CB947B39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F4FE7DFCFE05E3406FB95DF524AB560 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C258A135997D2E9488D87D27F6D71CF1 /* LICENSE */,
+				BCE48F5195058BF4F036D6B989C34D3C /* MaryTabBar.podspec */,
+				816904F6C20D2193015DC2ACF2EFECDB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4F53CDF3F5452F242DE295C3A822434F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9056A83E7431426DBC899534CFE9515 /* MaryTabBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6740816D9BBE9FEA523251BC42790FC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B4C1899F9661EBADA902BFFBB7AFE80 /* MaryTabBar.modulemap */,
+				C22C95EBF50E28854B904DE2C66A09FC /* MaryTabBar.xcconfig */,
+				B5DFC3AA2F3C94CC99341A06EB6EFFEE /* MaryTabBar-dummy.m */,
+				0B98C9CFB2D9AAF28FC4CC1A932A70DB /* MaryTabBar-Info.plist */,
+				1E5A676F4E67194D684D12D3A973F585 /* MaryTabBar-prefix.pch */,
+				6D32809381ED4450FE04346ABD3F3239 /* MaryTabBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MaryTabBar";
+			sourceTree = "<group>";
+		};
+		924AB88E3E7D6AF0BB65B00028CFFC85 /* Pods-MaryTabBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				643FDDC3B4AC3FD36A05B9C760FD6770 /* Pods-MaryTabBar_Tests.modulemap */,
+				FF701F29783BE624D14ADDAEC935C61C /* Pods-MaryTabBar_Tests-acknowledgements.markdown */,
+				46FDD46EB61A04FE88DB09BFC6D4A614 /* Pods-MaryTabBar_Tests-acknowledgements.plist */,
+				C3E8F7D2E75CD1865406DCC376CF3112 /* Pods-MaryTabBar_Tests-dummy.m */,
+				6441D228B1819FF7FAD82ACB85CE70C0 /* Pods-MaryTabBar_Tests-Info.plist */,
+				EE1C7DA1C743B9DFCA333E371DA6A7B3 /* Pods-MaryTabBar_Tests-umbrella.h */,
+				18731D5BAAEDD4EC1BB4383514452C32 /* Pods-MaryTabBar_Tests.debug.xcconfig */,
+				212CD3E95D243353DD6CE9EC461E8A64 /* Pods-MaryTabBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-MaryTabBar_Tests";
+			path = "Target Support Files/Pods-MaryTabBar_Tests";
+			sourceTree = "<group>";
+		};
+		9DB605D0ACB9ADF65EB709B8498278DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E611E295DDE68A250DC763B616CDFC /* MaryTabBar.framework */,
+				141327A6C3CC7047C2CCF73510E29CFA /* Pods_MaryTabBar_Example.framework */,
+				B13519C0211E0A5CF63AA8D77EB3FEF1 /* Pods_MaryTabBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9056A83E7431426DBC899534CFE9515 /* MaryTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D062AC36A8688A45FBD3227E7CD3D89E /* MaryTabBar.swift */,
+				954E7BA11771D9799D4BDF168CC870F1 /* MaryTabBarController.swift */,
+				3238842AEDE01C46B86B3BEB3F892170 /* MaryTabBarItem.swift */,
+				C606B66476D4F61B1F4334D8BE7BB5D7 /* MaryTabBarSetting.swift */,
+				2F4FE7DFCFE05E3406FB95DF524AB560 /* Pod */,
+				6740816D9BBE9FEA523251BC42790FC5 /* Support Files */,
+			);
+			name = MaryTabBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC6ED656230EC27E9D4A68E3B073E257 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFD53F268E220D0DA0B02D9935FC3A69 /* Pods-MaryTabBar_Example */,
+				924AB88E3E7D6AF0BB65B00028CFFC85 /* Pods-MaryTabBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4F53CDF3F5452F242DE295C3A822434F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9DB605D0ACB9ADF65EB709B8498278DF /* Products */,
+				CC6ED656230EC27E9D4A68E3B073E257 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFD53F268E220D0DA0B02D9935FC3A69 /* Pods-MaryTabBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BB817916479F84B1B98F235D37FF9D75 /* Pods-MaryTabBar_Example.modulemap */,
+				A6AEC11E1F198C61166857F58ABDD21F /* Pods-MaryTabBar_Example-acknowledgements.markdown */,
+				F8C8BCCA1455EB1CB255C8DABDB1A879 /* Pods-MaryTabBar_Example-acknowledgements.plist */,
+				7F88FE7CC70C015B6C3783DB5916DD82 /* Pods-MaryTabBar_Example-dummy.m */,
+				8C500C4A650EA2EAABC420C1BB06D051 /* Pods-MaryTabBar_Example-frameworks.sh */,
+				1BC953DC8B8D5071FE4D180511FC5579 /* Pods-MaryTabBar_Example-Info.plist */,
+				392929C48C520971290B0C5D9DADA108 /* Pods-MaryTabBar_Example-umbrella.h */,
+				CE9DD30BC159B5427B7F4EC2AF4536AE /* Pods-MaryTabBar_Example.debug.xcconfig */,
+				38B8DDDDF74D061C781BF5D692DDD861 /* Pods-MaryTabBar_Example.release.xcconfig */,
+			);
+			name = "Pods-MaryTabBar_Example";
+			path = "Target Support Files/Pods-MaryTabBar_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AAB7ACF2414251BC1EF8D486516F453 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995233AAAA52C1503780B0BD985C9749 /* MaryTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E470135D6ED764A9FC3AB52484D88E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1483B6E10C5EB87ABCE8B65EDFD3718 /* Pods-MaryTabBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADB43E56BFCC6FC5B04F33E53574CB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED49985C7FA5F79A7511B1A3974DCD5 /* Pods-MaryTabBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C8CE5806A81F770579E4FB3B982D6B1 /* MaryTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF85C30B8C09C05DBED55943699C226 /* Build configuration list for PBXNativeTarget "MaryTabBar" */;
+			buildPhases = (
+				2AAB7ACF2414251BC1EF8D486516F453 /* Headers */,
+				EA82AD147607AA35EBE393E4FA60FC7A /* Sources */,
+				A417B85F09F6147B3A1FE3DC46C4BBFC /* Frameworks */,
+				0A91873EBC7A2696327306A28E8D3687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaryTabBar;
+			productName = MaryTabBar;
+			productReference = 37E611E295DDE68A250DC763B616CDFC /* MaryTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F41A53A29425251F5EE9348EB432493 /* Pods-MaryTabBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EC86775E9E2A84146D8B862B661D24 /* Build configuration list for PBXNativeTarget "Pods-MaryTabBar_Tests" */;
+			buildPhases = (
+				EADB43E56BFCC6FC5B04F33E53574CB1 /* Headers */,
+				00CA230ACFB6120CF287F5FD311E22C9 /* Sources */,
+				79F79CE52A1F6DDE0DA6F87DF81D6337 /* Frameworks */,
+				54DE0EBC75BBEF8B3EC4235CD6EAFCD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C339202A264D8363C62983B018570C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MaryTabBar_Tests";
+			productName = "Pods-MaryTabBar_Tests";
+			productReference = B13519C0211E0A5CF63AA8D77EB3FEF1 /* Pods_MaryTabBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C247A7583266F741C6D9DDE8CB0D91D6 /* Pods-MaryTabBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B25C13E0AB57684C5FA960E2FA352621 /* Build configuration list for PBXNativeTarget "Pods-MaryTabBar_Example" */;
+			buildPhases = (
+				5E470135D6ED764A9FC3AB52484D88E6 /* Headers */,
+				68B9E370ABAAE13E1E9A5C3792BE4167 /* Sources */,
+				8189C8E7C93522EF5EDF42DFB33E7282 /* Frameworks */,
+				676763A74FDB526E0F98236A18B4647C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D5F3B4333B0B3D50DFD7843ACB02B15 /* PBXTargetDependency */,
+			);
+			name = "Pods-MaryTabBar_Example";
+			productName = "Pods-MaryTabBar_Example";
+			productReference = 141327A6C3CC7047C2CCF73510E29CFA /* Pods_MaryTabBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9DB605D0ACB9ADF65EB709B8498278DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C8CE5806A81F770579E4FB3B982D6B1 /* MaryTabBar */,
+				C247A7583266F741C6D9DDE8CB0D91D6 /* Pods-MaryTabBar_Example */,
+				7F41A53A29425251F5EE9348EB432493 /* Pods-MaryTabBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A91873EBC7A2696327306A28E8D3687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54DE0EBC75BBEF8B3EC4235CD6EAFCD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676763A74FDB526E0F98236A18B4647C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00CA230ACFB6120CF287F5FD311E22C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBAC5827407D9FFCB024CA157E73B856 /* Pods-MaryTabBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B9E370ABAAE13E1E9A5C3792BE4167 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF9FA57E13BDC80D6FA0EBCD8344D691 /* Pods-MaryTabBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA82AD147607AA35EBE393E4FA60FC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FEF59D16129A65593C14AB236F7743F /* MaryTabBar-dummy.m in Sources */,
+				E4B53453A143C84D99831313B75A165B /* MaryTabBar.swift in Sources */,
+				A629F21D5FB8B8387C9EBA27BD147BC9 /* MaryTabBarController.swift in Sources */,
+				FE66011B33694F03089C03276FD9AC4D /* MaryTabBarItem.swift in Sources */,
+				B99F0647173DF29DF0A113B391D0104D /* MaryTabBarSetting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C339202A264D8363C62983B018570C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MaryTabBar_Example";
+			target = C247A7583266F741C6D9DDE8CB0D91D6 /* Pods-MaryTabBar_Example */;
+			targetProxy = 48965CBF51686862EC585095ED0BA07F /* PBXContainerItemProxy */;
+		};
+		8D5F3B4333B0B3D50DFD7843ACB02B15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaryTabBar;
+			target = 6C8CE5806A81F770579E4FB3B982D6B1 /* MaryTabBar */;
+			targetProxy = E399F8923FB95A7081C8CFB1DB4F1D7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28D01D30F547053022F53BA7475E1ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22C95EBF50E28854B904DE2C66A09FC /* MaryTabBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaryTabBar/MaryTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaryTabBar/MaryTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaryTabBar/MaryTabBar.modulemap";
+				PRODUCT_MODULE_NAME = MaryTabBar;
+				PRODUCT_NAME = MaryTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		456F265A845CC6619825C36D3DE1D70A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C22C95EBF50E28854B904DE2C66A09FC /* MaryTabBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaryTabBar/MaryTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaryTabBar/MaryTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MaryTabBar/MaryTabBar.modulemap";
+				PRODUCT_MODULE_NAME = MaryTabBar;
+				PRODUCT_NAME = MaryTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		855A6B34003F5D2AE1697685C3B15F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9DD30BC159B5427B7F4EC2AF4536AE /* Pods-MaryTabBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryTabBar_Example/Pods-MaryTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryTabBar_Example/Pods-MaryTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96672736F80030DBB13A3691A82DE0F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 212CD3E95D243353DD6CE9EC461E8A64 /* Pods-MaryTabBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryTabBar_Tests/Pods-MaryTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryTabBar_Tests/Pods-MaryTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADA9B27AE6AE171EACC0F46440057436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B8DDDDF74D061C781BF5D692DDD861 /* Pods-MaryTabBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryTabBar_Example/Pods-MaryTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryTabBar_Example/Pods-MaryTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B657B0196B92BFF68F835E548C3F533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18731D5BAAEDD4EC1BB4383514452C32 /* Pods-MaryTabBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MaryTabBar_Tests/Pods-MaryTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MaryTabBar_Tests/Pods-MaryTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EC86775E9E2A84146D8B862B661D24 /* Build configuration list for PBXNativeTarget "Pods-MaryTabBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B657B0196B92BFF68F835E548C3F533B /* Debug */,
+				96672736F80030DBB13A3691A82DE0F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B25C13E0AB57684C5FA960E2FA352621 /* Build configuration list for PBXNativeTarget "Pods-MaryTabBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855A6B34003F5D2AE1697685C3B15F92 /* Debug */,
+				ADA9B27AE6AE171EACC0F46440057436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF85C30B8C09C05DBED55943699C226 /* Build configuration list for PBXNativeTarget "MaryTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28D01D30F547053022F53BA7475E1ACA /* Debug */,
+				456F265A845CC6619825C36D3DE1D70A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

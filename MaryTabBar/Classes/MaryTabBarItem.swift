@@ -8,7 +8,7 @@
 
 import UIKit
 
-@available(iOS 10.0, *)
+@available(iOS 9.3, *)
 class MaryTabBarItem: UIView {
     
     let image: UIImage

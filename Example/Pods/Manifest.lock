@@ -1,0 +1,16 @@
+PODS:
+  - MaryTabBar (0.1.0)
+
+DEPENDENCIES:
+  - MaryTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  MaryTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MaryTabBar: f0fa46d1bd3d1a37cc396ebf6a398bc541ee8b19
+
+PODFILE CHECKSUM: e3eb14ae4400ef002f5225c8439c125c98e05de3
+
+COCOAPODS: 1.8.4

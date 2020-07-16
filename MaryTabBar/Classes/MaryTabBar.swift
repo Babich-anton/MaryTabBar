@@ -9,7 +9,7 @@
 import UIKit
 
 // use this protocol to detect when a tab bar item is pressed
-@available(iOS 10.0, *)
+@available(iOS 9.3, *)
 protocol MaryTabBarDelegate: AnyObject {
     
     func tabBar(_ tabBar: MaryTabBar, didSelectTabAt index: Int)
@@ -17,7 +17,7 @@ protocol MaryTabBarDelegate: AnyObject {
     func setDefaultTabBar(index: Int)
 }
 
-@available(iOS 10.0, *)
+@available(iOS 9.3, *)
 public class MaryTabBar: UIView {
     
    internal var viewControllers = [UIViewController]() {
@@ -185,7 +185,7 @@ public class MaryTabBar: UIView {
     }
 }
 
-@available(iOS 10.0, *)
+@available(iOS 9.3, *)
 private extension MaryTabBar {
 
     var tabWidth: CGFloat {
@@ -205,7 +205,7 @@ private extension MaryTabBar {
     }
 }
 
-@available(iOS 10.0, *)
+@available(iOS 9.3, *)
 private extension MaryTabBar {
     
     private func animateTitle(index: Int) {

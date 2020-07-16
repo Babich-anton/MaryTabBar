@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6493050924BE1ACB006FEE96"
-               BuildableName = "MaryTabBar.app"
-               BlueprintName = "MaryTabBar"
+               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+               BuildableName = "MaryTabBar_Example.app"
+               BlueprintName = "MaryTabBar_Example"
+               ReferencedContainer = "container:MaryTabBar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BuildableName = "MaryTabBar_Tests.xctest"
+               BlueprintName = "MaryTabBar_Tests"
                ReferencedContainer = "container:MaryTabBar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,7 +41,26 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BuildableName = "MaryTabBar_Example.app"
+            BlueprintName = "MaryTabBar_Example"
+            ReferencedContainer = "container:MaryTabBar.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "607FACE41AFB9204008FA782"
+               BuildableName = "MaryTabBar_Tests.xctest"
+               BlueprintName = "MaryTabBar_Tests"
+               ReferencedContainer = "container:MaryTabBar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -39,15 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES"
-      showNonLocalizedStrings = "YES">
+      allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6493050924BE1ACB006FEE96"
-            BuildableName = "MaryTabBar.app"
-            BlueprintName = "MaryTabBar"
+            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BuildableName = "MaryTabBar_Example.app"
+            BlueprintName = "MaryTabBar_Example"
             ReferencedContainer = "container:MaryTabBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,9 +94,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6493050924BE1ACB006FEE96"
-            BuildableName = "MaryTabBar.app"
-            BlueprintName = "MaryTabBar"
+            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BuildableName = "MaryTabBar_Example.app"
+            BlueprintName = "MaryTabBar_Example"
             ReferencedContainer = "container:MaryTabBar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

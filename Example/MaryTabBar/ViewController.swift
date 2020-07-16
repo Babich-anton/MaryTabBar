@@ -6,6 +6,7 @@
 //  Copyright © 2020 Anton Babich. All rights reserved.
 //
 
+import MaryTabBar
 import UIKit
 
 class ViewController: MaryTabBarController {
