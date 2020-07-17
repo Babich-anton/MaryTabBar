@@ -1,0 +1,11 @@
+framework module MaryTabBar {
+  umbrella header "MaryTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MaryTabBar.Swift {
+    header "MaryTabBar-Swift.h"
+    requires objc
+}
