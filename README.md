@@ -12,11 +12,20 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### CocoaPods
+
 MaryTabBar is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'MaryTabBar'
+```
+
+### Carthage
+SOTabBar is also available through [Carthage](https://github.com/Carthage/Carthage):
+
+```ogdl
+github "Babich-anton/MaryTabBar"
 ```
 
 ## Contributing
