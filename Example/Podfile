@@ -1,10 +1,7 @@
 use_frameworks!
 
 target 'MaryTabBar_Example' do
+  
   pod 'MaryTabBar', :path => '../'
-
-  target 'MaryTabBar_Tests' do
-    inherit! :search_paths
-    
-  end
+  
 end

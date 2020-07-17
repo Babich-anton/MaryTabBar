@@ -1,7 +1,7 @@
 {
   "name": "MaryTabBar",
   "version": "0.1.0",
-  "summary": "MaryTabBar is a light way to add customization with animation to your tab bar view",
+  "summary": "MaryTabBar is a light way to add customization with animation to your tab bar view.",
   "swift_versions": "5.0",
   "description": "MaryTabBar is a light way to add customization with animation to your tab bar view.",
   "homepage": "https://github.com/Babich-anton/MaryTabBar",
@@ -10,7 +10,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "antosha.1998.ru@mail.ru": "babich.anton.q@gmail.com"
+    "Anton Babich": "babich.anton.q@gmail.com"
   },
   "source": {
     "git": "https://github.com/Babich-anton/MaryTabBar.git",
