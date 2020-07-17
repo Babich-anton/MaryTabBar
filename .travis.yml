@@ -2,13 +2,19 @@
 # * https://www.objc.io/issues/6-build-tools/travis-ci/
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode7.3
+osx_image: xcode10.2
 language: objective-c
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
+env:
+  - DESTINATION="OS=12.1,name=iPhone XS" SCHEME="MaryTabBar-Example" SDK=iphonesimulator
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/MaryTabBar.xcworkspace -scheme MaryTabBar-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail
+- xcodebuild -version
+- xcodebuild clean build -project MaryTabBar.xcodeproj -scheme "$SCHEME" -sdk "$SDK"
+- xcodebuild -project SOTabBar.xcodeproj -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug
+ONLY_ACTIVE_ARCH=NO test | xcpretty
 - pod lib lint

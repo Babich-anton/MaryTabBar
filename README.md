@@ -1,6 +1,6 @@
 # MaryTabBar
 
-[![CI Status](https://img.shields.io/travis/babich.anton.q@gmail.com/MaryTabBar.svg?style=flat)](https://travis-ci.org/babich.anton.q@gmail.com/MaryTabBar)
+[![CI Status](https://img.shields.io/travis/Babich-anton/MaryTabBar.svg?style=flat)](https://travis-ci.org/Babich-anton/MaryTabBar)
 [![Version](https://img.shields.io/cocoapods/v/MaryTabBar.svg?style=flat)](https://cocoapods.org/pods/MaryTabBar)
 [![License](https://img.shields.io/cocoapods/l/MaryTabBar.svg?style=flat)](https://cocoapods.org/pods/MaryTabBar)
 [![Platform](https://img.shields.io/cocoapods/p/MaryTabBar.svg?style=flat)](https://cocoapods.org/pods/MaryTabBar)
