@@ -13,8 +13,7 @@ env:
   - DESTINATION="OS=12.1,name=iPhone XS" SCHEME="MaryTabBar-Example" SDK=iphonesimulator
 script:
 - set -o pipefail
-- xcodebuild -version
-- xcodebuild clean build -project MaryTabBar.xcodeproj -scheme "$SCHEME" -sdk "$SDK"
-- xcodebuild -project SOTabBar.xcodeproj -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug
-ONLY_ACTIVE_ARCH=NO test | xcpretty
-- pod lib lint
+  - xcodebuild -version
+  - xcodebuild clean build -project MaryTabBar.xcodeproj -scheme "$SCHEME" -sdk "$SDK"
+  - xcodebuild -project MaryTabBar.xcodeproj -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty
+  - pod lib lint
